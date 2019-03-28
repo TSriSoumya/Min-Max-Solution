@@ -29,14 +29,14 @@ def calmax(lis):
     pass
 
 lis=[]
-d=int(input("enter the depth of the complete binary tree "))
-print("enter",pow(2,d),"nodes values")
+d=int(input("Enter the depth of the complete binary tree: "))
+print("Enter",pow(2,d),"nodes values: ")
 lis = [int(x) for x in input().split()]
 l=len(lis)
 if l!=pow(2,d):
-    print("Entered incorrect no: of node values")
+    print("Entered incorrect no: of node values.")
     pass
-a=input("enter 'min' or 'max': ")
+a=input("Enter 'min' or 'max': ")
 if a=='max':
     if d%2==0:
         print("Optimal solution ",end="")
